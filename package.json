@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage",
     "serve": "http-server src",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,9 @@
     "jest": "^27.0.1"
   },
   "dependencies": {
-    "core-js": "^3.13.0"
+    "core-js": "^3.13.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }
