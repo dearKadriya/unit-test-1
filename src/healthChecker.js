@@ -8,9 +8,9 @@ const healthBar = {
   critical: {
     health: 0,
   },
-    fff: {
-      health: 400
-    }
+  fff: {
+    health: 400,
+  },
 
 };
 
